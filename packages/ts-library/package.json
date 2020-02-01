@@ -6,7 +6,8 @@
   "types": "./dist/main.d.ts",
   "license": "MIT",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "prepare": "yarn build"
   },
   "devDependencies": {
     "rollup": "^1.31.0",
