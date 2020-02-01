@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Example library with custom configs using typescript",
   "main": "./dist/main.js",
+  "types": "./dist/main.d.ts",
   "license": "MIT",
   "scripts": {
     "build": "rollup -c"
