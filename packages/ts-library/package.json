@@ -1,0 +1,17 @@
+{
+  "name": "@rollup-playground/ts-library",
+  "version": "1.0.0",
+  "description": "Example library with custom configs using typescript",
+  "main": "./dist/main.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "rollup": "^1.31.0",
+    "rollup-plugin-cleaner": "^1.0.0",
+    "rollup-plugin-cleanup": "^3.1.1",
+    "rollup-plugin-typescript2": "^0.25.3",
+    "typescript": "^3.7.5"
+  }
+}
