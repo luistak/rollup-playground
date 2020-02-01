@@ -1,0 +1,16 @@
+{
+  "name": "@rollup-playground/simple",
+  "version": "1.0.0",
+  "description": "Simple rollup use cases without a configuration file",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup src/index.js --file dist/bundle.js --name \"myBundle\"",
+    "build:umd": "yarn build --format umd",
+    "build:cjs": "yarn build --format cjs",
+    "build:iife": "yarn build --format iife"
+  },
+  "devDependencies": {
+    "rollup": "^1.31.0"
+  }
+}
