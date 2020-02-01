@@ -3,9 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import BLA from '@rollup-playground/ts-library';
-
-console.log({ BLA })
-
+import { Bla } from '@rollup-playground/ts-react';
 
 const App = () => {
   return (
@@ -15,6 +13,7 @@ const App = () => {
         <p>
           Mudei { BLA(12) }
         </p>
+        <Bla name="Testing" age={23} />
         <a
           className="App-link"
           href="https://reactjs.org"

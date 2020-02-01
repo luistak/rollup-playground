@@ -5,6 +5,10 @@
   "repository": "git@github.com:luistak/rollup-playground.git",
   "author": "Luis <takahashihideki408@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "postinstall": "lerna bootstrap",
+    "start": "lerna run --scope @rollup-playground/example-app start"
+  },
   "devDependencies": {
     "lerna": "^3.16.5"
   }
