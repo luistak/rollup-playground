@@ -2,7 +2,7 @@
   "name": "@rollup-playground/simple",
   "version": "1.0.0",
   "description": "Simple rollup use cases without a configuration file",
-  "main": "index.js",
+  "main": "./dist/bundle.js",
   "license": "MIT",
   "scripts": {
     "build": "rollup src/index.js --file dist/bundle.js --name \"myBundle\"",
