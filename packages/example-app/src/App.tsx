@@ -5,6 +5,13 @@ import './App.css';
 import BLA from '@rollup-playground/ts-library';
 import { Bla } from '@rollup-playground/ts-react';
 
+// @ts-ignore
+import aaa from '@rollup-playground/simple';
+// @ts-ignore
+import libby from '@rollup-playground/libby';
+
+console.log({ ['10 + 5']: libby(10) })
+
 const App = () => {
   return (
     <div className="App">
